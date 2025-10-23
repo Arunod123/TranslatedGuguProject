@@ -1,4 +1,4 @@
-# Slimefun (Chinese Edition)
+# Slimefun (Chinese Edition) Translated By Cool/Arunod
 
 Looking for the English (original) version? [**Click here**](https://github.com/Slimefun/Slimefun4/)
 
