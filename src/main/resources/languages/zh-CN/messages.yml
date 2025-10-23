@@ -1,0 +1,479 @@
+---
+sf-cn:
+  timings:
+    started: 'The &a performance analyser has been activated.'
+    running: 'The &a performance analyser is running, and if you need to get data, please stop looking.'
+    stopped: 'The &a performance analyser has stopped, please see the report here: & f '
+    warning: 'The & c problem in generating performance reports!
+commands:
+  help: Show Help Text
+  cheat: Take Slimefun items directly by cheating mode
+  give: Give Player Slimefun Items
+  guide: Get a Slimefun guidebook
+  teleporter: View other players 'public delivery points
+  versions: Show Slimefun Run Environment
+  search: Search for Slimefun Items
+  open_guide: Open Slimefun Guide with Command
+  stats: View player statistics
+  id: Slimefun ID for hand-held items
+  cleardata:
+    description: Clean-up of world data
+    success: & a Data & a
+    block: Squares
+    oil: Oil
+    worldNotFound: "And the world has not been found."
+    confirm: '&e input command/ sf cleardata<World> <Type> contact to confirm that the operation & c cannot be restored!'
+  banitem:
+    description: Disable Slimefun Items
+    success: 'The &a Disabled Success'
+  unbanitem:
+    description: Enable Slimefun objects
+    success: 'The & A Enable Success'
+  research:
+    description: Progress of unlock/reset player studies
+    reset: 'andc you have reset %player% progress'
+    reset-target: "and your research has been reset."
+  backpack:
+    description: Get your lost backpack.
+    invalid-id: 'The 4-packing ID must be non-negative!'
+    player-never-joined: 'And 4 can't find a player with that name!'
+    backpack-does-not-exist: 'The four players don't have any backpacks!'
+    searching: 'The search is...'
+    restored-backpack-given: 'Your backpack has been restored and placed in your column!'
+  charge:
+    description: Charging your hand-held items.
+    charge-success: Charge complete!
+    not-rechargeable: This thing can't charge!
+  timings:
+    description: Performance report for Slimefun and its accessory plugins
+    please-wait: "Just a moment, please... and the results will come soon!"
+    verbose-player: 'The 4 mark cannot be used against the player!'
+    unknown-flag: '&4 Unknown tag: & c%flag%'
+  debug:
+    description: "output debug logs for developers"
+    current: '&7 Current Test Item: & 6%test_case%'
+    none-running: 'The 7 is not running the test!'
+    running: '&7 running the test in debug mode: & 6%test%'
+    disabled: 'The 7 debug mode is disabled'
+  reload:
+    description: "Reload Slimefun Profile"
+    success: "and a successfully reloaded profile."
+    failed: "The & c Reload Profile Failed! You may need to restart the server to apply the changes, see backstage output information for more."
+  migrate:
+    description: "Move old data."
+    confirm: &c Are you sure you want to move data? Confirm that enter /sf migrate contact during the migration \n do not let the player enter the server operation Slimefun-related machines and objects!
+    started: "and a migration of old data..."
+    success: "&a migration of old data (%migrate_type%) to database succeeded."
+    failed: "There's a problem with the &c migration data, please check backstage."
+    already-migrated: "There's no migration data."
+    in-progress: "The migration is in progress..."
+  blockdata:
+    description: "Opact the slime square data."
+placeholderapi:
+  profile-loading: "Pulling..."
+guide:
+  locked: "Locked."
+  work-in-progress: 'The feature is not available!'
+  locked-itemgroup:
+- "To understand the category of locks."
+- "You need to unlock the below."
+- 'All the items in the class'.
+  search:
+    message: "What are we looking for today?"
+    name: "Survey seven..."
+    tooltip: ' & b click to search for objects'
+    inventory: 'Researching: %item%'
+  tooltips:
+    open-itemgroup: "Click on open"
+    versions-notice: "These are important in the feedback questions!"
+    wiki: "see this item on unofficial Chinese Slimefun wiki."
+    recipes:
+      machine: "The composite formula available to this machine"
+      miner: "The resource available to this miner."
+      generator: "Fuel type available"
+      gold-pan: "The resources you can get."
+      climbing-pick: "You can climb the plane."
+  cheat:
+    no-multiblocks: 'You can't get a multi-structured machine in cheating mode, you have to build it as shown in the book!'
+  pages:
+    previous: The previous page.
+    next: Next page.
+  back:
+    title: 'Return'
+    guide: 'Return Slimefun Guide'
+    settings: 'Return Setup Panel'
+  languages:
+    updated: 'The & a successfully modified language is: & b%lang%'
+    selected-language: "Language currently used:"
+    select: 'Click this selected language'
+    select-default: 'Click the selected default language'
+    change: 'Click to select the language to change'
+    description:
+- 'Seven now you can modify Slimefun'
+- 'The language of the text message shown by 7'.
+      - 'Caution seven.: Text in Items'
+- 'The 7 can't be changed for now.'
+    translations:
+      name: "What's missing?"
+      lore: 'Call to add your own translation'
+  options:
+    learning-animation:
+      enabled:
+        text:
+          - ♪ Unlock the animation ♪: &a enabled'
+          - ''
+- 'Seven now you have a choice.'
+- "Seven skips unlocking research."
+- 'The course of '7'.
+        click: '"ande click to disable the unlocking of animations'
+      disabled:
+        text:
+          - ♪ Unlock the animation ♪: & 4 Disabled
+          - ''
+- 'Seven now you have a choice.'
+- "Seven skips unlocking research."
+- 'The course of '7'.
+        click: '"ande click to enable unlocking research animations'
+  title:
+    main: "Slimefun Guide"
+    settings: 'Set & Details '
+    languages: "Select the language you want to change."
+    credits: "Slimefun4 Contributor"
+    wiki: "Slimefun4 Wiki"
+    addons: 'Slimefun4 Attached Plugin '
+    bugs: "Question feedback."
+    source: Source code.
+    versions: The version of the installation.
+  credits:
+    commit: "Submitting"
+    commits: 'Number of submissions'
+    profile-link: 'click to access their Github homepage '
+    open: 'Call to view the list of contributors'
+    description:
+- "7Slimefun is an open source project."
+- 'Seven and maintained by the player community.'
+- ' ♪7 in these years, there's a total of & e%contributors% & 7'
+- 'Seven contributed to Slimefun.'
+    roles:
+      developer: 'The Six Developer'
+      wiki: '3Wiki Editor'
+      resourcepack: "And the material producer."
+      translator: 'The 9 Translator'
+
+actionbar:
+  radiation: ' & 6 levels of radiation exposure: &c%level% & 7/& e100'
+
+messages:
+  android-no-permission: "and your robots can't work in some territory/land you don't have access to, and the robots are automatically suspended."
+  not-researched: & c You need to unlock & f '%item%' & f'
+  not-enough-xp: "You don't have enough experience to unlock this research."
+  unlocked: ' & b successfully unlocked & 7'%research%'
+  only-players: "The command is only used in the game."
+  unknown-player: '&4 Unknown Player: & c%player%'
+  no-permission: "You don't have enough authority to do this."
+  usage: '&4 Usage: & c%usage%'
+  not-online: 'and 4%player% &c is not online'
+  invalid-item: ' & 4%item% & c is not a valid object name!'
+  invalid-amount: '& 4%amount% &ci is not a valid number: it must be greater than 0!'
+  invalid-item-in-hand: 'You don't have the sticky technology in your hand!
+  given-item: ' & b You got & a%amount% & 7'%itam%7'
+  give-item: ' & b successfully gave player %player% & a%amount% & 7'%item %tem & 7'
+  invalid-research: 'and 4% research & c is not a valid research name!'
+  give-research: ' & b You successfully unlocked the player %player% study & 7 '%research%7'
+  hungry: "You're too hungry to try and eat first!"
+  disabled-in-world: ' & 4&l%itam_name% is disabled in this world'
+  disabled-item: 'The 4'l%itam_name% has been disabled!
+  no-tome-yourself: 'You can't use your own & 4 & c...'
+  multimeter: '&b stored energy: & 3%stored% & b/ & 3% capability%'
+  piglin-barter: "4 You can't use Slimefun's objects and pig spirits."
+  bee-suit-slow-fall: "Your wings will slow you down safely."
+  deprecated-item: 'The & 4 item has been abandoned and will be removed from Slimefun in the near future.'
+  researching-is-disabled: 'The &c server has been disabled for research, all items have been unlocked!'
+  multi-tool:
+    mode-change: '&b%device% has been switched to: & 9%mode%'
+    not-shears: 'Multi Tool' cannot be used as scissors!
+  auto-crafting:
+    select-a-recipe: 'Seven hands on something you want to synthesize & e down and right & 7 squares.'
+    recipe-set: 'The machine's composite formula was successfully set up.'
+    recipe-removed: 'The machine succeeded in removing the previous synthetic formula.
+    no-recipes: 'I'm sorry, I couldn't find the composite formula for your handheld.'
+    missing-chest: The AutoCraft needs to be placed above a box.'
+    select: 'Select this synthetic formula'
+    temporarily-disabled: 'The Auto-Craft has been successfully shut down.
+    re-enabled: 'The AutoCraft has been successfully restarted!'
+    recipe-unavailable: |
+It's probably because you didn't unlock it, or because it was disabled by the server.
+& 7 If you haven't unlocked the object, unlock it and synthesize it.
+    tooltips:
+      enabled:
+- 'We're using this synthetic formula.'
+        - ''
+- '&e Left Key & 7 Disables this synthetic formula'
+- ' &e right & 7 delete this synthetic formula'
+      disabled:
+- 'The synthetic formula has been disabled.'
+        - ''
+- '&e Left Key & 7 Use this formula'
+- ' &e right key & 7 delete this formula'
+  talisman:
+    anvil: "Your amulet keeps your tools from being damaged."
+    miner: 'Your charm doubles the mineral'
+    farmer: 'Your charm doubles the fall.'
+    hunter: "Your amulet doubles the fall."
+    lava: 'Your charm saved you from the magma.'
+    water: "Your charms save you from drowning."
+    angel: "And your charms protect you from harm as you leap to faith."
+    fire: "And your charms protect you from the flames."
+    magician: "Your amulet has given you an extra spell."
+    traveller: "Your amulet makes you run faster."
+    warrior: "Your charm has made you stronger."
+    knight: 'Your amulet has given you 5 seconds of life recovery.'
+    whirlwind: 'Your amulet bounced back all the things that came at you.'
+    wizard: 'Your amulet has randomly raised a demon status, but the rest will fall'
+    caveman: "Your amulet has given you an immediate effect."
+    wise: "And your amulet doubles down."
+  soulbound-rune:
+    fail: 'The soul can only bind one object at a time.'
+    success: 'The articles were tied!
+  enchantment-rune:
+    fail: 'You can't carry this thing.'
+    no-enchantment: 'The & c cannot find the demonic properties that are available to this object.'
+    success: 'The &a succeeded in adding randomly usable magic properties to the object.'
+  research:
+    start: 'The old soul whispers to you about the mystery of it!'
+    progress: ' & 7 You're gradually starting to understand the study & b%research% & e (%progress%)'
+  tape-measure:
+    no-anchor: 'And &c select the starting point of the measurements before they begin!'
+    wrong-world: 'The starting point you set seems to be in another world!'
+    distance: ' & 7 range measured, & e is: %distance%'
+    anchor-set: 'The &a successfully set the measurement starting point in & e %anchor% & a'
+  climbing-pick:
+    dual-wielding: '4 You need to hold your hands to use the rocks!'
+    wrong-material: "You can't climb up this plane. Read the guidebook for details!"
+  fire-extinguish: 'You put out the fire.'
+  cannot-place: "You can't put diamonds here!"
+  no-pvp: "You can't attack other players here!"
+  radiation: "You've been exposed to deadly radiation! & c. Drop the radiation or put on a chemical suit!"
+  opening-guide: "And b's opening the guidebook, please wait..."
+  opening-backpack: 'B's opening the backpack, please wait...'
+  no-iron-golem-heal: 'It's not the sun. It can't be used to treat the puppets!'
+  link-prompt: 'and click here:'
+  diet-cookie: "You feel lightened..."
+  fortune-cookie:
+I'm stuck in a fortune cookie factory!
+- 'Seven, you'll die tomorrow... in the hands of a man who's afraid of his labour.
+- 'Seven will happen at some point in your life!
+- 'Next week you'll find out you're not in the real world, but in the game!'
+- 'The cookies will be delicious in a few seconds.'
+- 'Seven you will die soon and the last word you hear will be 'Death!'
+- 'No matter what you do, don't worry... I tried.
+The answer is 42.'
+- 'Seven a day, Walshy, get out of my way.'
+- 'Seven never dig down!'
+- 'Seven is just a flesh wound!'
+- 'Seven must always look at the bright side of life!'
+- "The seven is actually cookies, not cookies."
+- 'The seven neon lights are on!'
+  above-limit-level: 'And you're going to have to attach/be possessed with objects that are above the level of %level % level!'
+  pickaxe-of-the-seeker:
+    no-ores: "No ore anywhere near & c!"
+machines:
+  pattern-not-found: 'I'm sorry, it's not the right synthetic formula, please check the order of the items placed in the launcher.'
+  unknown-material: 'I'm sorry, I can't identify what's in the launcher.
+  wrong-item: 'I'm sorry, I can't identify your right-key items.
+  full-inventory: 'I'm sorry, the column's full!
+  in-use: 'The machine is being used by other players.'
+  ignition-chamber-no-flint: 'The burner is missing the flint.'
+  inventory-empty: ''6 You successfully built a multi-blocked machine... and put the items into the launcher with a composite formula, and then the right-click me to synthesize!'
+  ANCIENT_ALTAR:
+    not-enough-pedestals: ' & 4 Ancient Basements are inadequate. Baseline number currently in place: & c (%pedels %8)'
+    unknown-catalyst: 'The & 4 invalid catalyst! & c. Place the items correctly according to the composite formula!'
+    unknown-recipe: 'The & 4 Unknown Synthesis Table! & c. Place the items correctly according to the composite formula!'
+  ANCIENT_PEDESTAL:
+    obstructed: 'The base 4 is blocked! & c Move the top of the base!
+    in-use: "There's something on the 4th base that hasn't been taken down!"
+  HOLOGRAM_PROJECTOR:
+    enter-text: & 7 Please write down what you want to show on holographic text. & r (support colour code)
+    inventory-title: "Hologram Editor"
+  ELEVATOR:
+    no-destinations: "And 4 couldn't find the floor."
+    pick-a-floor: 'And3-Select a floor-'
+    current-floor: 'You're on the floor right now:'
+    click-to-teleport: '&e click & 7 to transfer to floor:'
+    enter-name: "Please name your floor! & f"
+    named: & 2 succeeded in naming this layer as: & f%loor%
+    editor-title: "Elevator setup."
+  TELEPORTER:
+    teleporting: 'The 3rd transmission...'
+    teleported: 'The 3rd pass succeeded!'
+    cancelled: 'The 4th transmission is canceled!'
+    invulnerability: 'You got 30 seconds of invincible effect!'
+    gui:
+      title: "Your delivery point."
+      tooltip: 'Call Transfer'
+      time: 'The projected time.'
+  GPS_CONTROL_PANEL:
+    title: 'GPS - Control Panel'
+    transmitters: "Details of the transmitter."
+    waypoints: "List of Transfer Points"
+  CARGO_NODES:
+    must-be-placed: 'The cargo node must be placed on a box or machine!'
+    connected: 'The two are connected!'
+    not-connected: 'The 4 isn't connected!
+  INDUSTRIAL_MINER:
+    no-fuel: "And your industrial miner is out of fuel!
+    piston-facing: 'Cause your industrial miner needs to put a piston up!
+    piston-space: 'The tops of the two pistons need no blocks!'
+    destroyed: 'Your industrial mine has been dismantled.'
+    already-running: 'The industrial miner is running!'
+    full-chest: 'The boxes of your industrial miner are full!'
+    no-permission: "You have no authority to operate this industrial miner!"
+    finished: 'Your industrial mining machine is complete! A total of %ores % ore!
+  TABLE_SAW:
+    no-slimefun-item: "You can't use Slimefun objects on Table Saw!"
+anvil:
+  not-working: "You can't use Slimefun's things in an iron hole."
+  mcmmo-salvaging: 'You can't break Slimefun's objects!
+brewing_stand:
+  not-working: '4 You can't use Slimefun items on the brewery!
+cartography_table:
+  not-working: '"You can't use Slimefun items on a map counter!'
+smithing_table:
+  not-working: ''4 You can't use Slimefun's articles as an exercise material!'
+villagers:
+  no-trading: "You can't trade Slimefun's items with the villagers!"
+backpack:
+  already-open: 'I'm sorry, this backpack has been opened somewhere else!'
+  no-stack: "You can't hold two backpacks at the same time."
+  set-name: "Please enter the name of the backpack."
+  not-backpack-owner: 'The owner of the backpack is not online, you have no right to use it!'
+  not-original-item: 'Don't change your hand when you enter your name!'
+workbench:
+  not-enhanced: "You can't use Slimefun objects on a normal workstation."
+cauldron:
+  no-discoloring: "You can't wash the color of Slimefun's things in a pot of potion."
+crafter:
+  not-working: "You can't use Slimefun articles on a synthetic machine."
+gps:
+  deathpoint: 'And 4 Death Point & 7% Date%'
+  status-online: "Online."
+  status-offline: "Get off the line."
+  waypoint:
+    new: 'And name your path point & 7'
+    added: 'The new transmission point has been successfully added.'
+    max: "You've reached the maximum number of transmission points set."
+    duplicate: 'The & 4 already has a transmission point for the same name: & f%waypoint%'
+  insufficient-complexity:
+    - 'and 4GPS Web is not sufficiently complex.: &c%complexity%'
+You haven't set up a GPS network yet.
+Your GPS network is not sufficiently complex to place more GPS transmitters.
+  geo:
+    scan-required: 'The & 4 need to scan natural resources first! & c please use natural resource scanners first!'
+inventory:
+  no-access: "You don't have access to this square."
+android:
+  started: 'The 7 droids are running according to the script.'
+  stopped: 'The 7 droids stopped running.'
+  scripts:
+    already-uploaded: 'You've uploaded this script.'
+    editor: Script Editor
+    too-long: 'The length of the script has reached the limit, you can't edit any more!'
+    instructions:
+      START: 'The 2 Run Script'
+      REPEAT: "and 9 repeat running scripts"
+      WAIT: 'And wait for 0.5s'
+      GO_FORWARD: "Seven marching forward."
+      GO_UP: "Seven going up."
+      GO_DOWN: "Seven going down."
+      TURN_LEFT: "Seven turn left."
+      TURN_RIGHT: "Seven turn right."
+      DIG_UP: "And b digs up."
+      DIG_FORWARD: "And b dig forward."
+      DIG_DOWN: "B digs down."
+      MOVE_AND_DIG_UP: 'And b digs up and moves'
+      MOVE_AND_DIG_FORWARD: 'B digs forward and moves'
+      MOVE_AND_DIG_DOWN: 'And b digs down and moves'
+      ATTACK_MOBS_ANIMALS: & 4 Attack & c (Monsters & Animals)
+      ATTACK_MOBS: 'And 4 attack & c'
+      ATTACK_ANIMALS: & 4 attack & c (animal)
+      ATTACK_ANIMALS_ADULT: & 4 attacks & c (adult animals)
+      CHOP_TREE: 'and cut down trees and plant seedlings'
+      CATCH_FISH: "and b-fishing."
+      FARM_FORWARD: 'and b. Automatically harvest and replant crops'
+      FARM_DOWN: 'And b automatically collects and replants the crops below'
+      FARM_EXOTIC_FORWARD: 'And b automatically harvests and replants all crops'
+      FARM_EXOTIC_DOWN: 'And b automatically harvests and replants all the crops below'
+      INTERFACE_ITEMS: "and 9 put the items in the column in the container in front of you."
+      INTERFACE_FUEL: '"Andc takes the fuel out of the container in front of it.'
+    enter-name:
+      - ''
+- 'And name your script.'
+      - ''
+    uploaded:
+- 'B uploading...'
+- 'The script has been uploaded!'
+    rating:
+      own: "You can't judge your own script!"
+      already: "You've left an evaluation on this script!"
+  access-manager:
+    title: 'The Robot Permissions Manager'
+    subtitle: ' & 8 & 7 click to open the manager'
+
+    menu:
+      add-player-title: '"anda add trust player'
+      add-player: '&a Left > Add Trust Player '
+      delete-player: '&c left key > Delete Trust Player '
+
+    messages:
+      input: 'Please enter the ID of the trust player you want to add.'
+      cannot-find-player: ' & c can't find the player you want to add: %player%'
+      is-trusted-player: 'The &a%player% is already your trusted player!'
+      is-not-trusted-player: "and c%player% is not your trusted player!"
+      cannot-add-yourself: "You can't trust yourself!"
+      add-success: 'The &a succeeded in adding trust player %player%.'
+      delete-success: 'The &a succeeded in deleting trust player %player%.'
+      reach-limit: 'The number of trusted players has reached the upper limit (10), please delete an existing player and add it!'
+languages:
+  default: The default language of the server
+  en: "English."
+  de: German.
+  fr: "French."
+  it: "Italian."
+  es: "Speak Spanish."
+  pl: "Polish"
+  sv: "Swedish"
+  nl: "Dutch."
+  cs: "Chectic"
+  hu: "Hungarian"
+  lv: Latvian
+  ru: "Russian."
+  sk: "Slovak"
+  zh-CN: 'Credible Chinese (China)'
+  zh-TW: Chinese (Taiwan)
+  vi: "Viet."
+  id: "Indonesian"
+  el: "Greek"
+  he: "Hebrew."
+  pt: 'Portuguese'
+  pt-BR: 'Portuguese (Brazil)'
+  ar: "Arabic"
+  af: "South African."
+  da: "Danish."
+  fi: "Finnish"
+  uk: "Ukrainian"
+  ms: "Malaysian"
+  'no': "Norwegian."
+  ja: "Japanese"
+  fa: "The Persians."
+  th: Thai.
+  tl: "He's in Garo."
+  ro: "Roman."
+  bg: "Bulgarian"
+  ko: "Kanish."
+  tr: "Turkish"
+  hr: Croatian.
+  mk: Macedonian
+  sr: "Serb."
+  be: "Black"
+  si-LK: "Sanjaro."
+  lt: "Lithuanian"

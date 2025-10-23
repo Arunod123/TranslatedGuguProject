@@ -1,0 +1,26 @@
+---
+slimefun:
+  weapons: Weapons
+  tools: Tools
+  items: Items in use
+  food: Food
+  basic_machines: Base machine.
+  electricity: Power and energy
+  gps: GPS Machine
+  armor: Armor.
+  magical_items: Magic objects.
+  magical_gadgets: Magic tools.
+  misc: Miscellaneous
+  technical_gadgets: Scientific and technical tools
+  resources: Resources
+  cargo: Logistics management
+  tech_misc: Technology Component
+  magical_armor: Magic armor.
+  talismans: Emblems (primary)
+  ender_talismans: Emblems (terminal)
+  christmas: Christmas.
+  valentines_day: Western Valentine's Day.
+  easter: Easter.
+  birthday: TheBusyBiscuit birthday (26 October)
+  halloween: Halloween.
+  androids: Editable droids

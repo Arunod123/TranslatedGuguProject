@@ -1,0 +1,261 @@
+---
+slimefun:
+  walking_sticks: A crutch.
+  portable_crafter: Combination table with the body
+  fortune_cookie: Lucky cookies.
+  portable_dustbin: Walking trash cans.
+  meat_jerky: Snack.
+  armor_forge: Armor synthesizing table.
+  glowstone_armor: Shining Stone Package
+  lumps: Magic crystals.
+  ender_backpack: End-of-life backpack
+  ender_armor: End-of-life suite
+  magic_eye_of_ender: End-of-life eye.
+  magic_sugar: Magic candy.
+  monster_jerky: Rotten flesh.
+  slime_armor: Slate suit.
+  sword_of_beheading: Kill the sword.
+  basic_circuit_board: Base circuit boards
+  advanced_circuit_board: Advanced circuit boards
+  smeltery: The smelter.
+  steel: Iron Age.
+  misc_power_items: Sulfurate and energy crystals
+  battery: Battery
+  steel_plate: Steel.
+  steel_thruster: Steel thruster
+  parachute: A parachute.
+  grappling_hook: Eagle claws.
+  jetpacks: Spray backpack.
+  multitools: Multifunctional Tools
+  solar_panel_and_helmet: The solar energy helmet.
+  elemental_staff: Element staff
+  grind_stone: Mills.
+  cactus_armor: A cactus suit.
+  gold_pan: The gold plate.
+  magical_book_cover: The cover of the book of magic.
+  slimefun_metals: More Metals
+  ore_crusher: Double mine.
+  bronze: Bronze Times
+  alloys: Advanced Alloys
+  compressor_and_carbon: Carbon Compression
+  gilded_iron_armor: A golden iron suit.
+  synthetic_diamond: Synthetic Diamond
+  pressure_chamber: The pressurized room.
+  synthetic_sapphire: Synthetic Sapphire
+  damascus_steel: Damascus Gear Steel
+  damascus_steel_armor: Damascus steel suit.
+  reinforced_alloy: Strengthen alloys.
+  carbonado: Black Diamond
+  magic_workbench: The Magic Synthesis.
+  wind_staff: Element staff - wind
+  reinforced_armor: Energetic alloy package.
+  ore_washer: Mineral scrubber.
+  gold_carats: Pure gold
+  silicon: Maroon Valley.
+  fire_staff: Element staff. Fire.
+  smelters_pickaxe: Metallurgy
+  common_talisman: Base amulet
+  anvil_talisman: An iron seal.
+  miner_talisman: Miner's amulet
+  hunter_talisman: A hunter's charm.
+  lava_talisman: Lava amulet
+  water_talisman: Water breath amulet
+  angel_talisman: Angel charm.
+  fire_talisman: Flame amulet
+  lava_crystal: Burn it!
+  magician_talisman: Master's amulet.
+  traveller_talisman: A traveler's charm.
+  warrior_talisman: A warrior's charm.
+  knight_talisman: Knight's amulet.
+  gilded_iron: Gold iron.
+  synthetic_emerald: Artificial Emerald.
+  chainmail_armor: Chain Bundle
+  whirlwind_talisman: Wind amulet
+  wizard_talisman: A wizard's charm.
+  lumber_axe: Logging axes.
+  hazmat_suit: Anti-radiation suit.
+  uranium: Radiation Metals
+  crushed_ore: Mineral purity.
+  redstone_alloy: A red stone alloy.
+  carbonado_tools: Top machine.
+  first_aid: First aid kit
+  gold_armor: A stronger suit.
+  night_vision_googles: Night vision
+  pickaxe_of_containment: The weird bricks.
+  hercules_pickaxe: Smash it.
+  table_saw: The sawmill.
+  slime_steel_armor: Steel Slam suit.
+  blade_of_vampires: The blood-smoking blade.
+  water_staff: Element staff - water
+  24k_gold_block: I have money.
+  composter: Compost.
+  farmer_shoes: Farmer shoes.
+  explosive_tools: Explosive breakthroughs.
+  automated_panning_machine: The lazy man paid for the gold plate.
+  boots_of_the_stomper: Step on the boots.
+  pickaxe_of_the_seeker: Legal X-ray
+  backpacks: Backpack.
+  woven_backpack: Hand knitting backpacks.
+  crucible: The casserole.
+  gilded_backpack: Gold backpack.
+  armored_jetpack: Spray armor.
+  ender_talismans: Put the terminal box in.
+  nickel_and_cobalt: It's not alloy.
+  magnet: Magnetic iron
+  infused_magnet: Articles magnets
+  cobalt_pickaxe: I'm speed.
+  essence_of_afterlife: The Dead Master?
+  bound_backpack: Psychic backpacks.
+  jetboots: Rocket boots.
+  armored_jetboots: Rocket boots.
+  seismic_axe: Earthquake axe.
+  pickaxe_of_vein_mining: Serial lockdown.
+  bound_weapons: Psychic weapons.
+  bound_tools: Psychic tool.
+  bound_armor: Psychic garb.
+  juicer: Juice!
+  repaired_spawner: Fixing weird bricks.
+  enhanced_furnace: The advanced furnace.
+  more_enhanced_furnaces: Better advanced furnaces.
+  high_tier_enhanced_furnaces: A higher furnace.
+  reinforced_furnace: Strengthen the furnace.
+  carbonado_furnace: Carbon fiber furnaces.
+  electric_motor: Mada.
+  block_placer: Box Placer
+  scroll_of_dimensional_teleposition: He's weird.
+  special_bows: Eagle Eye.
+  tome_of_knowledge_sharing: Communist experience.
+  flask_of_knowledge: Experience Value Saver
+  hardened_glass: Anti-bombing.
+  golden_apple_juice: More yellow juice.
+  cooler: Thermostat.
+  ancient_altar: Ancient altars.
+  wither_proof_obsidian: The anti-black rock.
+  ancient_runes: Element Console
+  special_runes: Purple Chars
+  infernal_bonemeal: Hell's bone powder.
+  rainbow_blocks: Rainbow diamonds
+  infused_hopper: There's no leak.
+  wither_proof_glass: Shatterproof glass.
+  duct_tape: FLEX TAPE
+  plastic_sheet: Plastic
+  android_memory_core: Robot Memory
+  oil: America's favorite.
+  fuel: Oil fuel
+  hologram_projector: Projective Text
+  capacitors: Primary capacitors
+  high_tier_capacitors: High-level capacitors
+  solar_generators: The solar generator.
+  electric_furnaces: Electromagnetic furnace.
+  electric_ore_grinding: Electric grinding.
+  heated_pressure_chamber: High temperature pressurized room.
+  coal_generator: Clean coal.
+  bio_reactor: It's a biological reactor.
+  auto_enchanting: "Associated with the Devil's Revenge."
+  auto_anvil: Electric iron thugs
+  multimeter: Power measures
+  gps_setup: GPS Foundation
+  gps_emergency_transmitter: GPS Mayday
+  programmable_androids: Robot.
+  android_interfaces: Robot Interface
+  geo_scanner: Geo-scanning
+  combustion_reactor: Fire reactor.
+  teleporter: Send the base.
+  teleporter_activation_plates: Send Device
+  better_solar_generators: High-level solar generator.
+  better_gps_transmitters: High-level GPS sender
+  elevator: Elevator.
+  energized_solar_generator: This is... this is not science!
+  energized_gps_transmitter: Top GPS Signal Sender
+  energy_regulator: Power core
+  butcher_androids: Butcher droid.
+  organic_food: Organic food.
+  auto_breeder: Help you feed the animals.
+  advanced_android: An advanced robot.
+  advanced_butcher_android: Advanced robot. Butcher.
+  advanced_fisherman_android: Advanced droid-fisher.
+  animal_growth_accelerator: Animal turner.
+  xp_collector: Experience Collector
+  organic_fertilizer: It's organic composting.
+  crop_growth_accelerator: The Golden Ribbon.
+  better_crop_growth_accelerator: Golden wretch 2.0.
+  reactor_essentials: The reactor needs.
+  nuclear_reactor: Nuclear division reactor.
+  freezer: Where's my Superman costume?
+  cargo_basics: Logistics infrastructure
+  cargo_nodes: Logistics Node
+  electric_ingot_machines: The electric chain.
+  medium_tier_electric_ingot_machines: The fast-tracking chain.
+  high_tier_electric_ingot_machines: The high-speed industrial chain.
+  automated_crafting_chamber: Auto Synthetic Table
+  better_food_fabricator: Advanced food mills
+  reactor_access_port: The reactor interface.
+  fluid_pump: Poo!
+  better_freezer: It's colder than your jokes.
+  boosted_uranium: High pressure quails.
+  trash_can: Black Hole!
+  advanced_output_node: Advanced Output Interface
+  carbon_press: Carbon compressor
+  electric_smeltery: Electric smelters.
+  better_electric_furnace: Upgrade electromagnetic stove.
+  better_carbon_press: Upgrade carbon compressor
+  empowered_android: Top droid.
+  empowered_butcher_android: Top droid. Butcher.
+  empowered_fisherman_android: Top droid-fisher.
+  high_tier_carbon_press: Final Carbon Condenser
+  wither_assembler: The Zero Farm.
+  better_heated_pressure_chamber: Advanced temperature pressurization room.
+  elytra: Twilight.
+  special_elytras: Special wings.
+  trident: Trident.
+  electric_crucible: Electric thong.
+  better_electric_crucibles: Electricity, heat, change.
+  advanced_electric_smeltery: Advanced electric smelters
+  advanced_farmer_android: Advanced droid-farmer.
+  lava_generator: Lava generator.
+  nether_ice: Geographical ice
+  nether_star_reactor: Geographic Star reactor
+  blistering_ingots: Bubbles.
+  automatic_ignition_chamber: AutoFire
+  output_chest: Base Device Output Box
+  copper_wire: Good guide!
+  radiant_backpack: Super backpack.
+  auto_drier: Dryer.
+  diet_cookie: A diet cake.
+  storm_staff: Element staff - Storm
+  soulbound_rune: The Morpheus.
+  geo_miner: Natural resource diggers
+  lightning_rune: Lightning Symbol
+  totem_of_undying: To escape from death.
+  charging_bench: Charging station
+  nether_gold_pan: The geographical cash drive.
+  electric_press: Electrical compressors
+  magnesium_generator: Salt power.
+  kelp_cookie: Nature's face.
+  makeshift_smeltery: Automatic Metallurgical
+  tree_growth_accelerator: Automatically, it's a gold trap.
+  industrial_miner: Industrial mining
+  advanced_industrial_miner: Industrial mining - modification
+  magical_zombie_pills: Redemption pills.
+  auto_brewer: Industrial.
+  enchantment_rune: It's ancient.
+  lead_clothing: Radiation-proof suit.
+  tape_measure: Scroll
+  iron_golem_assembler: The Titans caller.
+  climbing_pick: ♪ Flying away ♪
+  shulker_shell: Industrial ambushes.
+  villager_rune: The villagers are unemployed.
+  caveman_talisman: Cave Man's Conduit
+  even_higher_tier_capacitors: Level 3 capacitors
+  elytra_cap: Experience kinetic energy.
+  energy_connectors: Wire
+  bee_armor: Beehives
+  wise_talisman: A parable for the wise.
+  book_binder: It's a copy of the magic book.
+  auto_crafting: Auto Synthesis
+  produce_collector: Auto-milk
+  improved_generators: An improved generator.
+  ingredients_and_cheese: Slimefun Cooking
+  medium_tier_auto_enchanting: "Associated with the Devil's Revenge."
+  portable_teleporter: Send from anywhere.
+  farmer_talisman: A farmer's charm.

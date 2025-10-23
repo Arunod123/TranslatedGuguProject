@@ -1,0 +1,261 @@
+---
+slimefun:
+  walking_sticks: I'll take the staff first.
+  portable_crafter: どこでもクラフト
+  fortune_cookie: フォーチュンクッキー
+  portable_dustbin: I'm not allowed.
+  meat_jerky: ジャーキー
+  armor_forge: A defensive device.
+  glowstone_armor: It's a defensive device.
+  lumps: The magic wretch.
+  ender_backpack: どこでもエンダーチェスト
+  ender_armor: Antidefensive devices.
+  magic_eye_of_ender: The magic twig.
+  magic_sugar: Magical sugar.
+  monster_jerky: モンスタージャーキー
+  slime_armor: Antidefensive device I
+  sword_of_beheading: He's a murderer.
+  basic_circuit_board: Basic electronic circuits
+  advanced_circuit_board: E.R.E.R.
+  smeltery: Maker
+  steel: The times of steel.
+  misc_power_items: エネルギーコア
+  battery: はじめてのバッテリー
+  steel_plate: Steel processing
+  steel_thruster: Pusher.
+  parachute: パラシュート
+  grappling_hook: グラップリングフック
+  jetpacks: ジェットパック
+  multitools: マルチツール
+  solar_panel_and_helmet: The sun uses the sun.
+  elemental_staff: Properties Cane
+  grind_stone: Rocks.
+  cactus_armor: Antidefensive devices.
+  gold_pan: パンニング
+  magical_book_cover: It's magic. It's magic.
+  slimefun_metals: New polymetal
+  ore_crusher: I'm not sure if it's a good idea.
+  bronze: ♪ The times of time ♪
+  alloys: Alloy I
+  compressor_and_carbon: Charcoal Age
+  gilded_iron_armor: The golden shield.
+  synthetic_diamond: Artificial tiles
+  pressure_chamber: The Jianli Room.
+  synthetic_sapphire: Synthetic white platinum
+  damascus_steel: It's a time of steel.
+  damascus_steel_armor: Anticipating steel.
+  reinforced_alloy: The Energetic Times.
+  carbonado: ブラックダイヤモンド
+  magic_workbench: Magic desk.
+  wind_staff: Wind attributes cane
+  reinforced_armor: Energetic steel defence.
+  ore_washer: I'll wash the stone.
+  gold_carats: Pure gold
+  silicon: シリコンバレー
+  fire_staff: Fire attributes cane
+  smelters_pickaxe: You're a good guy.
+  common_talisman: タリスマン
+  anvil_talisman: The golden bed is on its way.
+  miner_talisman: The diggers are on their way.
+  hunter_talisman: It's a good idea.
+  lava_talisman: Soluble rock is in the middle of the day.
+  water_talisman: The water's breathing.
+  angel_talisman: Angels are on their way.
+  fire_talisman: Firefighters are on their way.
+  lava_crystal: Soluble Rocks, right?
+  magician_talisman: The miracle artist is in the middle of something.
+  traveller_talisman: The Explorer is on his way.
+  warrior_talisman: The squirts are on their way.
+  knight_talisman: The knights are on their way.
+  gilded_iron: Jin-hoon!
+  synthetic_emerald: Synthetic dick.
+  chainmail_armor: Cornelius' darts.
+  whirlwind_talisman: The wind's on its way.
+  wizard_talisman: The magician's in the middle of something.
+  lumber_axe: A machete.
+  hazmat_suit: We're going to have to get ready for this.
+  uranium: Radioactive matter
+  crushed_ore: I'll wash the stones.
+  redstone_alloy: Xanax.
+  carbonado_tools: I'm the boss.
+  first_aid: It's an emergency.
+  gold_armor: Pure gold defence.
+  night_vision_googles: I'm looking at the guy who beats him.
+  pickaxe_of_containment: A man with a soul.
+  hercules_pickaxe: ヘラクレスのピッケル
+  table_saw: テーブルソー
+  slime_steel_armor: Anti-defendants II
+  blade_of_vampires: A vampire.
+  water_staff: Water attribute stick.
+  24k_gold_block: Gold Kingdom.
+  composter: コンポスター
+  farmer_shoes: Farmer boots.
+  explosive_tools: Blast guy.
+  automated_panning_machine: Automatically
+  boots_of_the_stomper: Quick, quick, quick.
+  pickaxe_of_the_seeker: I don't know what you're doing.
+  backpacks: バックパックⅠ
+  woven_backpack: バックパックⅡ
+  crucible: るつぼ
+  gilded_backpack: バックパックⅢ
+  armored_jetpack: アーマードジェットパック
+  ender_talismans: エンダータリスマン
+  nickel_and_cobalt: Alloy II
+  magnet: Magnetic metal
+  infused_magnet: Magical magnets.
+  cobalt_pickaxe: コバルトのピッケル
+  essence_of_afterlife: ネクロマンシー
+  bound_backpack: ソウルバウンドバックパック
+  jetboots: ジェットブーツ
+  armored_jetboots: アーマードジェットブーツ
+  seismic_axe: Earthquake axe.
+  pickaxe_of_vein_mining: The guy with the veins.
+  bound_weapons: Get him! Get him! Get him!
+  bound_tools: Let's get it. Let's get it done.
+  bound_armor: Let's get him out of here. Let's go.
+  juicer: ジュース
+  repaired_spawner: A mechanic.
+  enhanced_furnace: I'll strengthen it.
+  more_enhanced_furnaces: Reinforcing XII
+  high_tier_enhanced_furnaces: Reinforcing Xi-III
+  reinforced_furnace: Reinforcing XIV
+  carbonado_furnace: X-V strengthening
+  electric_motor: ヒートアップ
+  block_placer: Arguments
+  scroll_of_dimensional_teleposition: Rebel drama.
+  special_bows: ロビンフッド
+  tome_of_knowledge_sharing: Common knowledge.
+  flask_of_knowledge: Accumulation.
+  hardened_glass: Explosion resistant.
+  golden_apple_juice: Jin-hoon!
+  cooler: I'm feeling it.
+  ancient_altar: Ancient altar.
+  wither_proof_obsidian: It's rocky.
+  ancient_runes: It's so old-fashioned.
+  special_runes: Good luck with that.
+  infernal_bonemeal: Hell's bone powder.
+  rainbow_blocks: Iris.
+  infused_hopper: The magic twig.
+  wither_proof_glass: I'll take care of it.
+  duct_tape: ダクトテープ
+  plastic_sheet: プラスチック
+  android_memory_core: メモリーコア
+  oil: Oil fields
+  fuel: Precision
+  hologram_projector: ホログラム
+  capacitors: キャパシタⅠ
+  high_tier_capacitors: キャパシタⅡ
+  solar_generators: Sunlight Run.
+  electric_furnaces: Electric furnace I.
+  electric_ore_grinding: Powder. Powder.
+  heated_pressure_chamber: Heated radial room I
+  coal_generator: Fire escape.
+  bio_reactor: I'm in the middle of something.
+  auto_enchanting: Pulse surgery.
+  auto_anvil: Electrical repairs
+  multimeter: マルチメーター
+  gps_setup: It's like the G.P.S. Times.
+  gps_emergency_transmitter: Emergency lines are back up.
+  programmable_androids: アンドロイド
+  android_interfaces: アンドロイドインタフェース
+  geo_scanner: I don't know what you're doing.
+  combustion_reactor: I'm going to fire the power station.
+  teleporter: We're building a machine.
+  teleporter_activation_plates: We're in the middle of something.
+  better_solar_generators: To strengthen the Sun's Sun escape.
+  better_gps_transmitters: Middle GPS Messenger
+  elevator: エレベーター
+  energized_solar_generator: Full-time Sunny Run.
+  energized_gps_transmitter: Upper GPS Messenger
+  energy_regulator: エネルギーネットワーク
+  butcher_androids: The slaughter.
+  organic_food: Xanax food
+  auto_breeder: Automatching
+  advanced_android: Reinforcing tiles
+  advanced_butcher_android: I'm going to force the slaughter.
+  advanced_fisherman_android: I'm going to force the fisher.
+  animal_growth_accelerator: Animal growth drives progress.
+  xp_collector: I'm sorry, I'm sorry.
+  organic_fertilizer: It's organic.
+  crop_growth_accelerator: Crop Growth for Progress I
+  better_crop_growth_accelerator: Crop Growth for Progress II
+  reactor_essentials: Atomic stove essentials.
+  nuclear_reactor: Atomic Power Runner.
+  freezer: ミスター・フリーズ
+  cargo_basics: I'm sorry. I'm sorry.
+  cargo_nodes: We're moving.
+  electric_ingot_machines: It's self-inflicted.
+  medium_tier_electric_ingot_machines: Automatically, it's called "II."
+  high_tier_electric_ingot_machines: Automatically, it's called "II."
+  automated_crafting_chamber: Automatically, it's white and white.
+  better_food_fabricator: Food Production Unit
+  reactor_access_port: Atomic furnace.
+  fluid_pump: Liquid tiles
+  better_freezer: The freezer.
+  boosted_uranium: ウラン235
+  trash_can: I'm sorry, but I'm sorry.
+  advanced_output_node: I'm going to give you a hard-on.
+  carbon_press: カーボンプレスⅠ
+  electric_smeltery: I'm at the E.T.I.
+  better_electric_furnace: Electric furnace II
+  better_carbon_press: カーボンプレスⅡ
+  empowered_android: Top of the class.
+  empowered_butcher_android: A high-ranking slaughterhouse.
+  empowered_fisherman_android: The top fisherman.
+  high_tier_carbon_press: カーボンプレスⅢ
+  wither_assembler: It's all automatic.
+  better_heated_pressure_chamber: Heated radial room II
+  elytra: エリトラ
+  special_elytras: スペシャルエリトラ
+  trident: トライデント
+  electric_crucible: Electric tile.
+  better_electric_crucibles: Electric XII
+  advanced_electric_smeltery: The Episode II
+  advanced_farmer_android: To strengthen farming.
+  lava_generator: The Solvent Expedition.
+  nether_ice: ネザーアイスクーラント
+  nether_star_reactor: We're in the middle of something.
+  blistering_ingots: It's intense. It's radioactive.
+  automatic_ignition_chamber: Auto light the fire room.
+  output_chest: Basic mechanical removal.
+  copper_wire: The guy's hot.
+  radiant_backpack: バックパックⅣ
+  auto_drier: Dryer.
+  diet_cookie: ダイエットクッキー
+  storm_staff: Ray's attribute stick.
+  soulbound_rune: ソウルバウンドルーン
+  geo_miner: ♪ The stars are distilled ♪
+  lightning_rune: I'm sorry, Ray.
+  totem_of_undying: I'm not dying.
+  charging_bench: Charging device
+  nether_gold_pan: ネザーパンニング
+  electric_press: Electric thong.
+  magnesium_generator: It's an electric power station.
+  kelp_cookie: Kumbu-san.
+  makeshift_smeltery: There's a joint factory.
+  tree_growth_accelerator: １ニョッキ！２ニョッキ！
+  industrial_miner: Industrial extraction.
+  advanced_industrial_miner: It's a place to dig.
+  magical_zombie_pills: Decomposition.
+  auto_brewer: It's industrial.
+  enchantment_rune: It's so ancient.
+  lead_clothing: The burlesque.
+  tape_measure: テープメジャー
+  iron_golem_assembler: It's a man-made fight.
+  climbing_pick: ブロッククライミング
+  shulker_shell: Synthetic dick.
+  villager_rune: The village's initialization.
+  caveman_talisman: The cave is in the middle of nowhere.
+  even_higher_tier_capacitors: キャパシタⅢ
+  elytra_cap: Rushing and arming.
+  energy_connectors: It's connected.
+  bee_armor: The beetle.
+  wise_talisman: We're in the middle of something.
+  book_binder: A copy of the script.
+  auto_crafting: Automatically, it's white and white.
+  produce_collector: Automatic titties
+  improved_generators: The escape machine has been modified.
+  ingredients_and_cheese: I don't know what you're doing.
+  medium_tier_auto_enchanting: High-altitude ops.
+  portable_teleporter: どこでもテレポート
+  farmer_talisman: The farmers are at their mercy.

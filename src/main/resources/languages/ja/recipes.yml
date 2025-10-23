@@ -1,0 +1,168 @@
+---
+slimefun:
+  multiblock:
+    name: 'マルチブロック'
+    lore:
+- 'Called on and built.'
+      - 'クラフトではありません！'
+  enhanced_crafting_table:
+    name: "Enhanced Crafting Table"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Enhanced Crafting Table'
+- 'As a rule, it's not a very big deal.'
+  armor_forge:
+    name: 'よろいのフォージ'
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Armor Forge'
+  grind_stone:
+    name: "Grind Stone"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Grind Stone'
+  smeltery:
+    name: "Smeltery."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Smeltery'
+  ore_crusher:
+    name: "Ore Crusher."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Ore Crusher'
+  mob_drop:
+    name: 'モブドロップ'
+    lore:
+- "Pop-Pop."
+- "Put it on."
+  gold_pan:
+    name: "Gold Pan"
+    lore:
+- "Top-to-pump-to-pump-pump."
+      - 'The machine.: Gold Pan'
+  compressor:
+    name: "Compressor"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Compressor'
+  pressure_chamber:
+    name: "Pressure Chambers"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Pressure Chamber'
+  ore_washer:
+    name: "Ore Washer"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Ore Washer'
+  juicer:
+    name: 'ジューサー（Juicer）'
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Juicer'
+  magic_workbench:
+    name: "Magic Workbnch."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Magic Workbench'
+  ancient_altar:
+    name: 'Ancient Altar'
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Ancient Altar'
+- "Detailed for Ancient Altar."
+  heated_pressure_chamber:
+    name: 'Heated Pressure Chambers'
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Heated Pressure Chamber'
+  food_fabricator:
+    name: 'Food Fabrictor'
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Food Fabricator'
+  food_composter:
+    name: "Food Company"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Food Composter'
+  freezer:
+    name: "Freezer."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Freezer'
+  geo_miner:
+    name: 'Geo Miner'
+    lore:
+- "Photo mining and use."
+      - 'The machine.: GEO Miner'
+  nuclear_reactor:
+    name: 'Reactor'
+    lore:
+- "The combing of the compost into the hand."
+      - 'The machine.: Nuclear Reactor'
+  oil_pump:
+    name: "Oil Pump"
+    lore:
+- "Acquainted with cynics."
+      - 'The machine.: Oil Pump'
+  pickaxe_of_containment:
+    name: "Pickaxe of Containment"
+    lore:
+- "Put it on the hand."
+      - 'Pickaxe of Containmentを'
+- "Use the scaffolding."
+  refinery:
+    name: "Refinery"
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Refinery'
+  barter_drop:
+    name: "I'll trade you."
+    lore:
+- "At the time of the day."
+- "Tops are exchanged." - "Tops are exchanged."
+minecraft:
+  shaped:
+    name: "The Momentum."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: The studio.
+- "and keep it fixed."
+  shapeless:
+    name: "Irresistance."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: The studio.
+- "and to be free."
+  furnace:
+    name: ♪Spills and pieces of water ♪
+    lore:
+- "Top-tip-trip."
+      - 'The machine.: かまど'
+  blasting:
+    name: "The radiator's accelerator."
+    lore:
+- "Top-tip-trip."
+      - 'The machine.: ♪ The furnace ♪
+  smoking:
+    name: "The Producer."
+    lore:
+- "Photo made with cynics."
+      - 'The machine.: ♪ The miller's ♪
+  campfire:
+    name: "Fire the fire."
+    lore:
+- "Top-tip-trip."
+      - 'The machine.: Burn the fire.
+  stonecutting:
+    name: "The Stone Cutter."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: Stone cutter.
+  smithing:
+    name: "The cylindrical table."
+    lore:
+- "Back to the bottom." - "Back to the bottom."
+      - 'The machine.: ♪ The cylindrical table ♪

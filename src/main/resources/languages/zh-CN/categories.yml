@@ -1,0 +1,26 @@
+---
+slimefun:
+  weapons: Weapons.
+  tools: Tools.
+  items: "Purpose objects."
+  food: Food.
+  basic_machines: "The basic machine."
+  electricity: Energy and Power
+  androids: "Programmable Robots"
+  gps: The GPS-based machine.
+  armor: "Defence."
+  magical_items: "Magic objects."
+  magical_gadgets: "Magic props."
+  misc: "Miscellaneous supplies."
+  technical_gadgets: "Technology Tool."
+  resources: Mineral Resources
+  cargo: "Property management."
+  tech_misc: "Technology parts."
+  magical_armor: "Magic defence."
+  talismans: "I level amulet"
+  ender_talismans: "The last amulet (class II)"
+  christmas: 'Christmas (December)'
+  valentines_day: 'The Valentine's Day.
+  easter: 'Easter (April)'
+  birthday: 'The BusyBiscuit'
+  halloween: "Hallowow Day."

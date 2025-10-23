@@ -1,0 +1,404 @@
+---
+commands:
+  help: Show this help screen
+  cheat: Allows you to cheat to get things
+  give: To other players Slimefun objects
+  guide: Give yourself a Slimefun guide
+  teleporter: View the location of other players
+  versions: List all installed attachments
+  search: Search for entered words in the guide
+  open_guide: Open Slimefun Guide (no book)
+  stats: Show player statistics
+  research:
+    description: Unlock/replace player 's research items
+    reset: "and you've turned %player% back into an idiot."
+    reset-target: "You're a fool again."
+  backpack:
+    description: A copy of a backpack already exists for the search
+    invalid-id: 'The 4ID cannot be negative!'
+    player-never-joined: 'And 4 couldn't find a player with that name.'
+    backpack-does-not-exist: 'The 4 should not exist!'
+    restored-backpack-given: 'Your backpack has been repaired and placed in your column!'
+  charge:
+    description: Charging your stuff.
+    charge-success: This item has been charged!
+    not-rechargeable: This item is uncharged!
+  timings:
+    description: Energy consumption for Slimefun and its associated plugins
+    please-wait: "Please wait for the results to come out!"
+    verbose-player: 'The & 4 player cannot use the detailed information symbol!'
+    unknown-flag: ' &4 Unknown symbol: &c%flag%'
+  debug:
+    description: "I'm running the wrong journal for the developer."
+    current: ' &7 Current Test Event: & 6%test_case%'
+    none-running: 'The 7 test is not currently running!'
+    running: '&7 running debugging test: & 6%test%'
+    disabled: 'The 7 debugging mode.'
+placeholderapi:
+  profile-loading: "Inloading..."
+guide:
+  locked: It's locked.
+  work-in-progress: 'This function has not yet been developed!'
+  locked-itemgroup:
+- 'Close this category.'
+- 'The following categories must be unlocked first.'
+- 'All the things'.
+  search:
+    message: "What are you looking for?"
+    name: "Survey seven..."
+    tooltip: "and b click to find the object."
+    inventory: ' Search: %item%'
+  tooltips:
+    open-itemgroup: 'Call to open'
+    versions-notice: "These are very important in paying back the wrongs!"
+    wiki: "see this item on Slimefun's official Wiki."
+    recipes:
+      machine: "Synthesizing table using this machine"
+      miner: "The resource available to this miner."
+      generator: "Fuels that can be used."
+      gold-pan: "Accessible resources."
+      climbing-pick: "You can climb the flat mass."
+  cheat:
+    no-multiblocks: 'You can't cheat to get multiple structures, you must cover it!'
+  pages:
+    previous: "Page"
+    next: "Next."
+  back:
+    title: "Go back to the page."
+    guide: "Go back to the Slimefun guide."
+    settings: "Go back to the configuration interface."
+  languages:
+    updated: 'And your language has been changed to: & b%lang'
+    selected-language: 'Voice:'
+    select: 'Call this language'
+    select-default: "Call to select the default language"
+    change: 'Call to select a new language'
+    description:
+You can choose Slimefun now.
+- "The language of the 7 interface."
+- "but technology is in the way of technology."
+- 'Seven can't be translated.'
+    translations:
+      name: "What's missing?"
+      lore: "Call to increase your own translation"
+  options:
+    learning-animation:
+      enabled:
+        text:
+          - 'Cause I'm learning animation.: #a is #
+          - ''
+- 'You can decide now.'
+- 'Do you want to show it in the chat bar?'
+- 'Seven of the things you studied.'
+        click: 'ande click to close the learning animation'
+      disabled:
+        text:
+          - 'Cause I'm learning animation.: & a'
+          - ''
+- 'You can decide now.'
+- 'Do you want to show it in the chat bar?'
+- 'Seven of the things you studied.'
+        click: "and click to open the learning animation."
+  title:
+    main: "Slimefun Guide"
+    settings: "Setting and Information."
+    languages: "Please choose your preferred language."
+    credits: "Slimefun4 Contributor"
+    wiki: 'Slimefun4 Wiki'
+    addons: 'Additional plugin for Slimefun4'
+    bugs: "Error Report."
+    source: "The Original Code."
+    versions: "Establishing version"
+  credits:
+    commit: "Commander."
+    commits: "Commander."
+    profile-link: "Call and see their personal data on GitHub."
+    open: "Call to see the Contributors."
+    description:
+- "7Slimefun is an open source project."
+- 'Seven is defended by a lot of people.'
+- ' & 7 is more than & e%controls% & 7 people in these years'
+- 'Slimefun'.
+    roles:
+      developer: "The 6th Developer."
+      wiki: 'And 3Wiki Editor'
+      resourcepack: "and 7 Package Producers."
+      translator: "and 9 translator."
+messages:
+  not-researched: 'And 4 you don't have enough knowledge to understand it. & c You need to study unlocking & f'%tem%tem%f'.
+  not-enough-xp: "You don't have enough experience to unlock this."
+  unlocked: ' & b You have unlocked & 7 '%research%'
+  only-players: "This command can only be sent by the player."
+  unknown-player: 'And4 Unknown Player: &c%player%'
+  no-permission: 'You do not have the permission to do this.'
+  usage: 'And4 Usage: &c%usage%'
+  not-online: 'And 4%player% & c is not online!'
+  invalid-item: '4%item% & c does not exist!'
+  invalid-amount: ' & 4%amount% & c is not a valid number: the value must be greater than 0!'
+  given-item: ' & b You've got & a%amount% & 7'%itam%7'
+  give-item: ' & b You have given %player% & a%amount% & 7'%item %tem & 7'
+  invalid-research: '4%research% and c do not exist!'
+  give-research: ' & b You've given %player% Research & 7 '%Research%7'
+  hungry: "You're too hungry to do this!"
+  disabled-in-world: 'The & 4 & l object is disabled in this world'
+  disabled-item: 'The object is disabled! How did you get it?'
+  no-tome-yourself: 'You can't use the Book of 4 Knowledge on yourself...'
+  multimeter: '&b saved energy: & 3% stored% &b maximum capacity: & 3% capability%'
+  piglin-barter: "You can't trade Slimefun items with pigbrin."
+  bee-suit-slow-fall: "Your wings will slow you back to the ground safely."
+  deprecated-item: 'The & 4 item has been abandoned and will soon be removed from Slimefun'.
+  multi-tool:
+    mode-change: '&b%device% Mode Switched to: & 9%mode%'
+    not-shears: "And don't use it as scissors!"
+  auto-crafting:
+    select-a-recipe: "and hold the items you want to synthesize and crouch down the right click on this square to synthesize"
+    recipe-set: "You have successfully set up the composite table of this machine."
+    recipe-removed: 'You have successfully removed this synthesizing table from this machine, and you can set a new synthesizing table whenever you want!'
+    no-recipes: "We can't find a composite table that can synthesize the items you hold."
+    missing-chest: 'And c's missing the box! The auto-synth needs to be placed on top of the box.'
+    select: 'Select this synthesizing table'
+    temporarily-disabled: 'The autocombiner has been suspended. You can restart it at any time.'
+    re-enabled: 'The auto synth has been restarted!'
+    recipe-unavailable: |
+& c This item may be blocked by the server or you have not unlocked it
+& 7 If you haven't synthesized this item before, try to unlock it.
+    tooltips:
+      enabled:
+- 'This synthesizing table is enabled.'
+        - ''
+- '&e click on Left Key & 7 to suspend use of this synthesis table'
+- '&e right button & 7 to delete this synthesis table'
+      disabled:
+- 'The synthesizing table has been disabled.'
+        - ''
+- '&e Left Key & 7 to enable this synthesizing table'
+- '&e right button & 7 to delete this synthesis table'
+  talisman:
+    anvil: 'Your charm has avoided your tool failure.'
+    miner: 'Your charm just doubled your fall'
+    farmer: 'You've just doubled your crop.'
+    hunter: 'Your charm just doubled your fall.'
+    lava: 'Your charm saved you from your burnt fate.'
+    water: 'Your charm gave you air.'
+    angel: "And your charm has caused you to fall and hurt."
+    fire: 'Your charms will save you from the edge of the burning.'
+    magician: 'Your charm gave you an additional demon.'
+    traveller: 'Your charm gives you speed 3'
+    warrior: 'Your charm has temporarily enhanced your strength.'
+    knight: "Your charm gives you five seconds to return."
+    whirlwind: "and your charm reflects the projector."
+    wizard: "Your charm has raised you to the level of luck, but it has also lowered the level of others."
+    caveman: "And your charm gave you the accelerated effect."
+    wise: 'Your amulet doubles your experience'
+  soulbound-rune:
+    fail: 'You can only bind one object at a time.'
+    success: 'You have successfully tied the object to the soul! You will not fall after death.'
+  enchantment-rune:
+    fail: "You can't carry the object."
+    no-enchantment: 'The &c couldn't find a demon that could be attached to the object.'
+    success: "You have successfully attached a random demon to the object."
+  research:
+    start: 'The seven ancient spirit whispers in your ear!'
+    progress: ' & 7 You start studying & b%research% & e (%progress%)'
+  tape-measure:
+    no-anchor: 'And c you need anchor points to start measuring!'
+    wrong-world: 'Course your anchor is in another world!
+    distance: & 7 measure successful & e distance: %distance%'
+    anchor-set: 'Successful anchoring: %e %anchor%'
+  climbing-pick:
+    dual-wielding: "You need to climb with both hands in your hand!"
+    wrong-material: 'You can't climb this plane. Use your science guidebook to get more information!'
+  fire-extinguish: 'You put out the flame.'
+  cannot-place: 'And c can't put diamonds there!'
+  no-pvp: 'No fighting here!'
+  radiation: '4 You're exposed to deadly radiation!
+  opening-guide: 'Cause it's gonna take a couple of seconds...'
+  opening-backpack: 'Cause it's gonna take a few seconds to open the backpack...'
+  no-iron-golem-heal: 'This isn't a barbarian. You can't treat the Titans with it.'
+  link-prompt: 'And click here:'
+  diet-cookie: "You're starting to feel light."
+  fortune-cookie:
+- Help me! I'm stuck in a lucky biscuits factory!
+- 'Seven's gonna be tough tomorrow.
+- 'Sometime in your life, something bad happens!'
+- 'Next week, you'll realize it's not the real world. You're just in a computer game.'
+- 'You'll want another one in a few seconds.'
+- 'The last thing you heard before you died would be 'kill him'!
+- 'Don't try to hold back hard... 'I tried, it felt good, but it wasn't worth it.'
+- '"'742, the answer is 42.'
+- "7 a day walshy, worry away from you."
+- 'Seven never dig down vertically!'
+- 'Seven, it's just a small wound!
+- 'Seven is always positive!'
+- 'Seven is not an ordinary biscuits.'
+- 'The Seven Neon Lantern'!
+  above-limit-level: 'Can't attach a higher kind of possessed demon than %level%'
+  pickaxe-of-the-seeker:
+    no-ores: 'And c can't find any minerals nearby!'
+machines:
+  pattern-not-found: 'The &e search does not contain this synthesizing table. Please confirm the machine used or the synthesizing table material.'
+  unknown-material: 'The machine cannot handle this item. Please confirm the machine or composite table material.'
+  wrong-item: '"The objects and machines you hold are not compatible, please confirm the machines or composite table materials used.'
+  full-inventory: 'The launcher is full!'
+  in-use: 'The others are using this machine.'
+  ignition-chamber-no-flint: 'The fire system doesn't have flint stones.'
+  inventory-empty: 'You have successfully built this multi-dimensional machine. Put it in the thrower and click on me again to synthesize what you want!'
+  ANCIENT_ALTAR:
+    not-enough-pedestals: 'The & 4 altar needs more base & c (%pedestals %8)'
+    unknown-catalyst: & c. Check the composite table!
+    unknown-recipe: & c. Check the & c. Synthesis Table!
+  ANCIENT_PEDESTAL:
+    obstructed: 'The 4 bases are blocked!' Please remove the above diamonds!
+  HOLOGRAM_PROJECTOR:
+    enter-text: ' & 7 Enter the text message you want to display. & r (Colour code can be entered)'
+    inventory-title: "All-time projection editor."
+  ELEVATOR:
+    no-destinations: 'The 4 can't find their destination.'
+    pick-a-floor: 'Stick 3-Step floor-'
+    current-floor: 'This is your floor now:'
+    click-to-teleport: 'And press this & 7 to the floor:'
+  TELEPORTER:
+    teleporting: 'The 3rd is sending...'
+    teleported: 'The 3rd pass succeeded!'
+    cancelled: 'The 4 dispatch aborted!'
+    invulnerability: 'Cause you got 30 seconds of invincible!
+    gui:
+      title: "Your mark."
+      tooltip: "Call to deliver."
+      time: "Announced time."
+  GPS_CONTROL_PANEL:
+    title: "GPS Control Panel"
+    transmitters: "System Launcher Overview."
+    waypoints: Sending Point Overview
+  CARGO_NODES:
+    must-be-placed: 'The 4 must be connected to the box or the side of the machine!'
+  INDUSTRIAL_MINER:
+    no-fuel: 'Cause your industrial miner's out of fuel! Put the fuel in the top box.
+    piston-facing: 'The pistons of the industrial miner need to go up!'
+    piston-space: 'The air is needed on the two pistons!
+    destroyed: "and your industrial mine was destroyed."
+    already-running: 'The mining machine in this industry is already operational!'
+    full-chest: 'The boxes of the miners in this industry are full!'
+    no-permission: "You don't have the right to use an industrial miner here!"
+    finished: 'Your industrial miner has been excavated and dug %ores % of the minerals!'
+anvil:
+  not-working: 'The 4-tech items need auto-iron plus tape repair!'
+  mcmmo-salvaging: "You can't recycle Slimefun objects!"
+brewing_stand:
+  not-working: 'You can't make Slimefun's stuff!
+cartography_table:
+  not-working: '4 You can't use Slimefun items on the map table!
+smithing_table:
+  not-working: '4 You can't treat Slimefun's items as making materials!'
+villagers:
+  no-trading: "You can't trade Slimefun goods!"
+backpack:
+  already-open: 'I'm sorry, this backpack is being used!
+  no-stack: "You can't stack your backpack!"
+workbench:
+  not-enhanced: 'and 4Slimefun items may not be used on ordinary workstations'
+cauldron:
+  no-discoloring: "You can't erase Slimefun's equipment!"
+gps:
+  deathpoint: "And 4 dead spots 7%date %"
+  waypoint:
+    new: & 7 (Colour code is available)
+    added: 'Successful addition of sending point'
+    max: 'The 4th transmission point has reached the upper limit.'
+    duplicate: 'The & 4 already has a delivery point called & f%waypoint%4'
+  insufficient-complexity:
+- & 4GPS inadequate signal: &c%complicity%'
+-'4a) GPS base setup unplaced'
+- "'4b) GPS lack of signal."
+  geo:
+    scan-required: "Please do a geo-scan first."
+inventory:
+  no-access: 'The 4th has no permission to use the object'
+android:
+  started: "The 7 droids continue to operate."
+  stopped: 'The 7 droids are suspended.'
+  scripts:
+    already-uploaded: 'The 4 program has been uploaded.'
+    editor: "Program Editor"
+    too-long: 'The program is too long to edit!'
+    instructions:
+      START: 'And 2 executors'
+      REPEAT: "and 9 Repeat Programs"
+      WAIT: 'And wait 0.5 seconds.'
+      GO_FORWARD: 'Step 7'
+      GO_UP: 'Step 7 up.'
+      GO_DOWN: 'Seven moving down.'
+      TURN_LEFT: "and turn left at seven."
+      TURN_RIGHT: "Seven turn right."
+      DIG_UP: "And b digs on top."
+      DIG_FORWARD: "And b digs in front."
+      DIG_DOWN: "And b digs underneath."
+      MOVE_AND_DIG_UP: "and b dig and move up."
+      MOVE_AND_DIG_FORWARD: "and b dig and move forward."
+      MOVE_AND_DIG_DOWN: "and b dig and move down."
+      ATTACK_MOBS_ANIMALS: "and 4 attack the monster and the animal."
+      ATTACK_MOBS: "The 4th Attack on the Monster."
+      ATTACK_ANIMALS: "Four against the animals."
+      ATTACK_ANIMALS_ADULT: 'The 4th attack on adult animals.'
+      CHOP_TREE: "and cut the whole tree and plant it hard."
+      CATCH_FISH: "and b tried to catch fish."
+      FARM_FORWARD: 'B reaps and breeds.'
+      FARM_DOWN: "B harvests down and grows hard."
+      FARM_EXOTIC_FORWARD: 'The advanced harvest and heavy seeding.'
+      FARM_EXOTIC_DOWN: 'The next step is to harvest down and sow.'
+      INTERFACE_ITEMS: 'The & c input items to the item node'
+      INTERFACE_FUEL: 'Andc gets fuel from the fuel node.'
+    enter-name:
+      - ''
+- 'Please enter a program name'
+      - ''
+    uploaded:
+- 'B uploading...'
+- 'Successful upload program!'
+    rating:
+      own: "You can't judge your program!"
+      already: "You've evaluated this program!"
+languages:
+  default: "Assumption."
+  en: "English"
+  de: German.
+  fr: "French"
+  it: "Italian."
+  es: Spanish.
+  pl: "Polish"
+  sv: "Swedish"
+  nl: Dutch.
+  cs: "Chectic"
+  hu: "Hungarian"
+  lv: "Rativian"
+  ru: 'Russian'
+  sk: "Slovak"
+  zh-CN: Chinese (simple)
+  zh-TW: Chinese.
+  vi: "Viet."
+  id: "Indonesian"
+  el: "Greek."
+  he: "Hebrew."
+  pt: 'Portuguese'
+  pt-BR: 'Portuguese (Brazil)'
+  ar: "Arabic"
+  af: "South African."
+  da: "Danish."
+  fi: "François."
+  uk: "Ukrainian."
+  ms: 'Marais'
+  'no': Norwegian.
+  ja: "Japanese"
+  fa: "The Persians."
+  th: "Thai"
+  tl: "He's speaking oblivion."
+  ro: "Romanian."
+  bg: Bulgarian
+  ko: Korean.
+  tr: "Turkey"
+  hr: "Crodia."
+  mk: "Machton"
+  sr: "Selvia."
+  be: 'Bio-Russian'
+  si-LK: "Singalo."
+  lt: "Lithuanian"

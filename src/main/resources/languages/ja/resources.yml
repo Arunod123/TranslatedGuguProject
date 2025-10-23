@@ -1,0 +1,24 @@
+---
+tooltips:
+  results: GEO results
+  chunk: I'm not sure what you're talking about.
+  world: ワールド
+  unit: Blocks
+  units: Blocks
+resources:
+  slimefun:
+    oil: Crude oil
+    nether_ice: ネザーアイス
+    salt: Xiao Xing
+    uranium: ウラニウム
+  slimefunorechunks:
+    iron_ore_chunk: Xiao Xing
+    gold_ore_chunk: Kim.
+    copper_ore_chunk: Copper
+    tin_ore_chunk: Syd.
+    silver_ore_chunk: Silver
+    aluminum_ore_chunk: アルミニウム
+    lead_ore_chunk: Bang!
+    zinc_ore_chunk: Xiao Xing
+    nickel_ore_chunk: ニッケル
+    cobalt_ore_chunk: コバルト

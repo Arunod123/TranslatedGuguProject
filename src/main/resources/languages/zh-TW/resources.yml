@@ -1,0 +1,24 @@
+---
+tooltips:
+  results: Earth scan results
+  chunk: Scanning Blocks
+  world: World
+  unit: Units
+  units: Units
+resources:
+  slimefun:
+    oil: Oil
+    nether_ice: Geographical ice
+    salt: Salt.
+    uranium: Uranium
+  slimefunorechunks:
+    iron_ore_chunk: Iron Rock
+    gold_ore_chunk: Goldstone.
+    copper_ore_chunk: Copper Stones
+    tin_ore_chunk: Tinstone.
+    silver_ore_chunk: Silver Rock
+    aluminum_ore_chunk: Valium.
+    lead_ore_chunk: Rocks
+    zinc_ore_chunk: Rocks.
+    nickel_ore_chunk: Rocks.
+    cobalt_ore_chunk: Rocks.

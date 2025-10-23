@@ -1,0 +1,168 @@
+---
+slimefun:
+  multiblock:
+    name: "Multiple Block Structures"
+    lore:
+- 'Build with blocks according to the structure of the display.'
+- 'It cannot be synthesized.'
+  enhanced_crafting_table:
+    name: "Enhanced Crafting Table"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in enhanced workstations."
+- "An ordinary desk is not enough!"
+  armor_forge:
+    name: "Armor Forge"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis with armor."
+  grind_stone:
+    name: "Grind Stone"
+    lore:
+- 'As shown in the composite table.'
+- "Crying with mills."
+  smeltery:
+    name: "Smeltery."
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis with smelters."
+  ore_crusher:
+    name: 'Ore Crusher'
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in a shredder."
+  mob_drop:
+    name: "Kill the creature down."
+    lore:
+- "Kill the designated creature."
+- 'To get the object.'
+  gold_pan:
+    name: "Gold Pan"
+    lore:
+- "Use the gold bowl."
+- "Get this thing."
+  compressor:
+    name: "Compressor"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in compressors."
+  pressure_chamber:
+    name: "Pressure Chambers"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in the pressure chamber."
+  ore_washer:
+    name: "Ore Washer"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in a mine washing machine."
+  juicer:
+    name: "Juicer."
+    lore:
+- 'As shown in the composite table.'
+- "Crying juice in a juicy machine."
+  magic_workbench:
+    name: "Magic Workbnch"
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in the Magic Workstation."
+  ancient_altar:
+    name: 'Ancient Altar'
+    lore:
+- 'As shown in the composite table.'
+- "Use ancient altars to synthesize."
+- "Look for more information on the ancient altar page."
+  heated_pressure_chamber:
+    name: 'Heated Pressure Module'
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis with heating pressure chamber."
+  food_fabricator:
+    name: 'Food Fabrictor'
+    lore:
+- 'Synthesis as shown in the synthesis table'
+- "Use food processor."
+  food_composter:
+    name: "Food Composter"
+    lore:
+- 'As shown in the composite table.'
+- "Build in food composting."
+  freezer:
+    name: "Freezer."
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in the fridge."
+  geo_miner:
+    name: "Geo Miner"
+    lore:
+- "This object can pass."
+- "Natural resource extraction machine acquired."
+  nuclear_reactor:
+    name: 'Nucler Reactor'
+    lore:
+- "This item is a nuclear reactor."
+- "The by-product of running."
+  oil_pump:
+    name: "Oil Pump"
+    lore:
+- 'This thing works.'
+- "Pump collection."
+  pickaxe_of_containment:
+    name: "Pickaxe of Containment"
+    lore:
+- "This square can do it."
+- "With a cage of swipes."
+- 'Divided it.'
+  refinery:
+    name: "Refinery"
+    lore:
+- 'As shown in the composite table.'
+- "Mixed with a refinery."
+  barter_drop:
+    name: "The pig's deal fell."
+    lore:
+- "Use the golden sun to trade with the pig spirit."
+- "Access to this object."
+minecraft:
+  shaped:
+    name: "Ordinally synthesized."
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis in a normal workstation."
+- 'The order is important.'
+  shapeless:
+    name: "Incoherent Synthesis."
+    lore:
+- 'As shown in the composite table.'
+- 'Synthesis in a normal workstation.'
+- 'The order doesn't matter.'
+  furnace:
+    name: "Synthesis table of furnaces"
+    lore:
+- "Fire in the furnace."
+- "to synthesize what you want."
+  blasting:
+    name: "Synthetic table of high furnaces"
+    lore:
+- "Fire in the furnace."
+- "to synthesize what you want."
+  smoking:
+    name: "Synthesis of fumigators."
+    lore:
+- "Fire in the chimney."
+- "to synthesize what you want."
+  campfire:
+    name: Campfire Synthesis Table
+    lore:
+- "Fire on the campfire."
+- "to synthesize what you want."
+  stonecutting:
+    name: "The Stone Cutter Synthesis."
+    lore:
+- 'As shown in the composite table.'
+- "Synthesis with stone-cutting machines."
+  smithing:
+    name: "The Momentum."
+    lore:
+- 'The formula as shown.'
+- "Synthesis in the assembly table."

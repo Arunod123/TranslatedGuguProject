@@ -1,0 +1,53 @@
+package city.norain.slimefun4;
+
+import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
+import java.util.Objects;
+import java.util.logging.Level;
+import javax.annotation.Nonnull;
+import net.milkbowl.vault.economy.Economy;
+import org.bukkit.OfflinePlayer;
+
+/**
+ * Vault 集成类, 用于处理游戏币相关的操作.
+ *
+ * @author StarWishsama
+ */
+public class VaultIntegration {
+    private static Economy econ = null;
+
+    protected static void register(@Nonnull Slimefun plugin) {
+        if (plugin.getServer().getPluginManager().isPluginEnabled("Vault")) {
+            var rsp = plugin.getServer().getServicesManager().getRegistration(Economy.class);
+            if (rsp != null) {
+                econ = rsp.getProvider();
+                plugin.getLogger().log(Level.INFO, "Successful AccessVault");
+            } else {
+                plugin.getLogger().log(Level.WARNING, "Unable to access Vault. If you are a CMI user, go to configuration file to enable economy system");
+            }
+        } else {
+            plugin.getLogger().log(Level.WARNING, "Vault is not installed on the server, the game currency unlocking study feature will not be used");
+        }
+    }
+
+    protected static void cleanup() {
+        econ = null;
+    }
+
+    public static double getPlayerBalance(OfflinePlayer p) {
+        Objects.requireNonNull(p, "Player cannot be null!");
+        Objects.requireNonNull(econ, "Vault instance cannot be null!");
+
+        return econ.getBalance(p);
+    }
+
+    public static void withdrawPlayer(OfflinePlayer p, double withdraw) {
+        Objects.requireNonNull(p, "Player cannot be null!");
+        Objects.requireNonNull(econ, "Vault instance cannot be null!");
+
+        econ.withdrawPlayer(p, withdraw);
+    }
+
+    public static boolean isEnabled() {
+        return econ != null && Slimefun.getConfigManager().isUseMoneyUnlock();
+    }
+}

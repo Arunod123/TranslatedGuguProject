@@ -1,0 +1,172 @@
+---
+slimefun:
+  multiblock:
+    name: Multiple diamonds
+    lore:
+- To create that structure in the world.
+- It's not a synthetic object.
+  enhanced_crafting_table:
+    name: Advanced Synthetic Table (Enhanced Crafting Table)
+    lore:
+- In the advanced synthesis table.
+- Combine the object.
+- It's not working.
+  armor_forge:
+    name: Armor Forge.
+    lore:
+- In the armored table.
+- To create the object.
+  grind_stone:
+    name: Grind Stone
+    lore:
+- In the grinder.
+- We'll grind it out.
+  smeltery:
+    name: Smeltery
+    lore:
+- In the furnace.
+- Smelt it out.
+  ore_crusher:
+    name: Ore Crusher
+    lore:
+- Use mine shredder.
+- To shred the object.
+  mob_drop:
+    name: The monster fell.
+    lore:
+- Kill the monster.
+- To get the object.
+  gold_pan:
+    name: Gold Pan [tool area]
+    lore:
+- 'Use a gold plate.
+
+'
+- Get this thing out.
+  compressor:
+    name: Compressor
+    lore:
+- Use the compressor.
+- Compress the object.
+  pressure_chamber:
+    name: Pressure Chambers
+    lore:
+- Use pressurized rooms.
+- Compress the object.
+  ore_washer:
+    name: Ore Washer
+    lore:
+- Use mineral scrubbers.
+- Get that thing out.
+  juicer:
+    name: Juicer.
+    lore:
+- Use the juice machine.
+- Scratch the covers.
+  magic_workbench:
+    name: Magic WorldBench
+    lore:
+- Use the magic synthesizing table.
+- Combine the object.
+  ancient_altar:
+    name: Ancient Altar
+    lore:
+- Use ancient altars.
+- Combine the object.
+- Get more information on the ancient altar page.
+  heated_pressure_chamber:
+    name: |-
+High temperature pressurized room.
+      (Heated Pressure Chamber)
+    lore:
+- Use the heat-pressure room.
+- Compress the object.
+  food_fabricator:
+    name: Food Fabrictor
+    lore:
+- Use of food mills
+- Make the thing.
+  food_composter:
+    name: Food Composter
+    lore:
+- Use compost.
+- Make the thing.
+  freezer:
+    name: Freezer
+    lore:
+- Use the freezer.
+- Freeze this thing.
+  geo_miner:
+    name: GEO Miner
+    lore:
+- Use natural resource excavators
+- Excavate this resource
+  nuclear_reactor:
+    name: Nuclear Reactor
+    lore:
+- This item is for nuclear power.
+- By-products.
+  oil_pump:
+    name: Oil Pump
+    lore:
+- Use of oil pumps
+- Get the thing.
+  pickaxe_of_containment:
+    name: Pickaxe of Inclusion
+    lore:
+- Monster bricks.
+- It can be used in the form of tolerance.
+- Dig it down.
+  refinery:
+    name: Refinery
+    lore:
+- Use of oil refineries
+- To develop the object.
+  barter_drop:
+    name: Piggy Boolean deal.
+    lore:
+- With gold and pigbrin.
+- Dealing to get the object.
+minecraft:
+  shaped:
+    name: Synthesizing in an orderly way
+    lore:
+- Same amount.
+- Same position.
+- "The original."
+  shapeless:
+    name: Unsequenced Synthesis
+    lore:
+- Same amount.
+- It doesn't matter.
+- "The original."
+  furnace:
+    name: Smelt Synthesis Table
+    lore:
+- Heat it up.
+- It's finished!
+  blasting:
+    name: High furnace synthesis table
+    lore:
+- Heat it up.
+- It's finished!
+  smoking:
+    name: Synthetic table of the chimney.
+    lore:
+- Heat it up.
+- It's finished!
+  campfire:
+    name: Camp fire synthesis table
+    lore:
+- Heat it up.
+- "The finished product comes out!"
+  stonecutting:
+    name: Severator Synthesis Table
+    lore:
+- Get up there and grind it.
+- "The finished product comes out!"
+  smithing:
+    name: A synthesizing table
+    lore:
+- Let's do it.
+- It's finished.

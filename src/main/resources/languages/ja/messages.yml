@@ -1,0 +1,409 @@
+---
+commands:
+  help: ♪ And the middle of the sky ♪
+  cheat: Slimefun's got a problem.
+  give: Assign Slimefun and
+  guide: Slimefun got it.
+  teleporter: Assign the name of the Quannie.
+  versions: バージョンについて
+  search: Slimefun
+  open_guide: Slimefun's got a problem.
+  stats: Intel says:
+  research:
+    description: Assign Quality Operation
+    reset: "and c%player % % % %
+    reset-target: 'The state of affairs is beginning to change today'
+  backpack:
+    description: Generate the cyborgium and extract the cyborgium.
+    invalid-id: 'The 4ID is not a negative fraction of the integer tonight!'
+    player-never-joined: It's all right. It's okay.
+    backpack-does-not-exist: 'The 4-specifies the presence of the thugs!'
+    restored-backpack-given: 'The return of the night!'
+  charge:
+    description: He's got a hand and a hand and a hand and a hand and a hand.
+    charge-success: We're charging tonight!
+    not-rechargeable: I'll charge you!
+  timings:
+    description: Slimefun hysteria.
+    please-wait: 'We'll be waiting for a few seconds for tonight... and we'll see what's going on!
+    verbose-player: 'The 4xverbose uses the platinum!'
+    unknown-flag: 'And 4 unknown white: & c%flag%'
+  debug:
+    description: "The Runner's Runaway."
+    current: ' ♪7 now ♪ ♪ 6%test_case%'
+    none-running: "Seven is now in the middle of the line."
+    running: 'In & 7 row: & 6%test%'
+    disabled: 'The 7-year-olds are free.'
+placeholderapi:
+  profile-loading: "In the middle of..."
+guide:
+  locked: # In the middle of the night #
+  work-in-progress: "The secret project is not finished!"
+  locked-itemgroup:
+- "Standing on and off."
+- "The next one's all over the place."
+    - 'リサーチしてください'
+  search:
+    message: "The power of the power is in the middle of the night."
+    name: '"""""""""""""
+    tooltip: ♪ And you know what? ♪
+    inventory: 'Access result: %item%'
+  tooltips:
+    open-itemgroup: ♪Call it up ♪
+    versions-notice: "The report is in vain!"
+    wiki: "The formula Wiki confirms the pattern."
+    recipes:
+      machine: "Use possible cynicism."
+      miner: "Exploring possible resources."
+      generator: "Use possible fuel."
+      gold-pan: "It could be a waste of resources."
+      climbing-pick: ♪Could be the ground ♪
+  cheat:
+    no-multiblocks: "The 4-year-old guy gets his ass."
+  pages:
+    previous: "The ex-chicks."
+    next: "Simple."
+  back:
+    title: ♪Choose ♪
+    guide: "Slimefun"
+    settings: "Configure the image."
+  languages:
+    updated: & & & %lang%'
+    selected-language: 'Choose words:'
+    select: "The word of the word is chosen."
+    select-default: "The white man chooses the white man."
+    change: "The new words are named."
+    description:
+      - '&7このオプションでは'
+- "7Slimefun" means today's speech.
+- 'Seven designated.
+- 'Seven is now a stupendous.'
+    translations:
+      name: "He's a talker?"
+      lore: ♪ He's got his tongue on his mouth ♪
+  options:
+    learning-animation:
+      enabled:
+        text:
+- 'B': 'A'.
+          - ''
+- 'Thirty-thirty.'
+- 'Intel from the 7th.'
+- 'Step 7'.
+        click: "The lessons of learning are immobilized."
+      disabled:
+        text:
+- 'B lessons: 4 years.'
+          - ''
+- 'Thirty-thirty.'
+- 'Intel from the 7th.'
+- 'Step 7'.
+        click: "and learn to regenerate."
+  title:
+    main: 'Slimefunガイド'
+    settings: "Setting the Intel."
+    languages: "Language picks and chooses."
+    credits: 'Slimefun4 Runner'
+    wiki: 'スライムファン４のウィキ'
+    addons: 'Slimefun4 アドオン'
+    bugs: "Reporting."
+    source: 'ソースコード'
+    versions: ♪Back to the bottom ♪
+  credits:
+    commit: 'コミット'
+    commits: 'コミット'
+    profile-link: "The GitHub guy opened his mouth."
+    open: "The Queen is saying,
+    description:
+- "7-Slimefun"
+      - '&7オープンソースのプロジェクトです。'
+- 'Seven years old and more than seven.'
+- '7Slimefun'.
+    roles:
+      developer: "Six Runners."
+      wiki: "It's the compiler."
+      resourcepack: 'The author of the & c'
+      translator: "The Nine-Operator."
+messages:
+  not-researched: 'The 4-year-old understands that knowledge is perfect.'""%item%&f" & c-hours are off tonight."
+  not-enough-xp: "And the four of us will have to be satisfied."
+  unlocked: 'The 7' %research%'
+  only-players: ♪ 4x0 ♪ ♪ With the twigs ♪
+  unknown-player: & 4: & c%player%'
+  no-permission: ♪ 4x10 ♪
+  usage: '&4 Usage: & c%usage%'
+  not-online: '&4%player% &cはオンラインではありません！'
+  invalid-item: ♪ 4%item% ♪ ♪ ♪ ♪ ♪ ♪ ♪ ♪ in the middle of nowhere ♪ ♪ in the middle of nowhere ♪
+  invalid-amount: 'and 4% amount% & c's partially platinum, and the whole number is set for tonight'
+  given-item: ' %b%item% %amount% %    '
+  give-item: ' &b%player%item% %amount% %                  '
+  invalid-research: "4% of the research % and %c"
+  give-research: "and b %player % %research % finish tonight"
+  hungry: ♪ And it's all over the place ♪
+  disabled-in-world: "And the guy who used it to use it."
+  disabled-item: "The 4th and the 4th is the last day of the day."
+  no-tome-yourself: 'The four-toe of Knowldge and creaking'
+  multimeter: & b/ & 3% capability %'
+  piglin-barter: ♪ 4Slimefun ♪
+  bee-suit-slow-fall: "The bees are on the ground with their feathers on the ground."
+  deprecated-item: 'The 4-year rule is over. In recent days, the Slimefun rule has been removed.'
+  researching-is-disabled: 'Cause it's not like we're going to be in the middle of the night.
+  multi-tool:
+    mode-change: '&b%device%g: & 9%mode%'
+    not-shears: 'And Multi Tool's use of the twig!
+  auto-crafting:
+    select-a-recipe: "In the white sky, in the white sky, in the middle of the night."
+    recipe-set: 'And the machine is set up.'
+    recipe-removed: 'The machine is removed. The new machine is set!'
+    no-recipes: "At the end of the day, you'll see."
+    missing-chest: 'Cause it's an auto-negotiator who's got to put it on the roof.
+    select: ♪Choose pick ♪
+    temporarily-disabled: 'At the moment, there will be no such thing as this, and so will the middle hand!'
+    re-enabled: 'The autobiography is so strong that it's so beautiful!'
+    recipe-unavailable: |
+It's not like we're going to be in the middle of the night, we're going to be in the middle.
+The 7-year-olds have been in the middle of nowhere, once in the middle of the day.
+    tooltips:
+      enabled:
+- 'And now we're in the middle of the night.'
+        - ''
+- 'The left and the seven and a half.'
+- 'And the right & 7 & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the 7 & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right
+      disabled:
+- ♪ 'Cause now you're in the middle of the night ♪
+        - ''
+- 'The left and the seven.'
+- 'And the right & 7 & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right & the 7 & the right & the right & the right & the right & the right & the right & the right & the right & the right & the right
+  talisman:
+    anvil: "The guy's in the middle of it."
+    miner: "And you're in the middle of something."
+    farmer: "The King's Landing is twice as big."
+    hunter: "And you're in the middle of something."
+    lava: "The hysteria of the hysteria of the hysteria."
+    water: "The water's in the middle of nowhere."
+    angel: "The twilight is falling down on the twig."
+    fire: "The hysteria of the hysteria of the hysteria."
+    magician: "and you're paying more and more."
+    traveller: "and you're speeding up the flow of fruit and fruit."
+    warrior: 'The body is strengthening it.'
+    knight: "The regenerative fruit and the platinum."
+    whirlwind: "The twilight of the twilight of the twirling twirling of the twigs."
+    wizard: "The man who's lucky and lucky, the man who's in trouble."
+    caveman: 'The speed of extraction is rising.'
+    wise: "And you're in the middle of something."
+  soulbound-rune:
+    fail: "At one time, it was a complex count."
+    success: "And it's true that when you do it, it's true."
+  enchantment-rune:
+    fail: '&cこのアイテムにはエンチャントできません。'
+    no-enchantment: "and pay and pay."
+    success: 'You pay and you pay.'
+  research:
+    start: 'The 7-year-old knowledge is heard...'
+    progress: ' & b%research%7' & e(%progress%)'
+  tape-measure:
+    no-anchor: 'The calcium is measured, the point is set for tonight!'
+    wrong-world: "Don't let the guys get in the car tonight!"
+    distance: 'And 7 is done. & e Distance: %distance%'
+    anchor-set: 'The name & & %ancher %'
+  climbing-pick:
+    dual-wielding: "and 4Climbing Pick with hands and hands!"
+    wrong-material: 'Slimefun confirmed that in the middle of the night!'
+  fire-extinguish: "The 7-year-olds."
+  cannot-place: "The courthouse has been set up."
+  no-pvp: "and cpvp allows the man to use his heart tonight."
+  radiation: "And over 4 Quantities are in the middle of the month!
+  opening-guide: "And bSlimefun, on his way to the middle and middle of the month, will not wait until the middle of the night..."
+  opening-backpack: "And on the way to the middle of the month, don't wait until tonight..."
+  no-iron-golem-heal: It's like, "I'm going to have to fight back and forth!"
+  link-prompt: ♪ 'Cause it's like:'
+  diet-cookie: "The body is in a state of shock..."
+  fortune-cookie:
+- 'Standards, help!'
+- 'Seven dead tomorrow...
+- 'Close the house!'
+- 'Since the 7th week, the world's history, the world's history.'
+- "Don't worry about it."
+- 'The last word of the word is "kill all!"!
+- "In the middle of the night, there's no sign of it, there's no sign of it."
+- 'Thirty-seven'... '42'.
+- 'Since the 7 Wallshy is in the middle of the night, the 1st is in the middle of the day.'
+- 'Seven straight down to the middle!
+- 'Step 7'!
+- 'The sevens are always on the run.'
+- "In the middle of the 7th."
+- 'The 7-year-old stunner!'
+  above-limit-level: "And the guy in the middle of the sky is the man in the middle!"
+  pickaxe-of-the-seeker:
+    no-ores: "And the stone is near the stone."
+machines:
+  pattern-not-found: "and confirm that there's no sign of the future."
+  unknown-material: "The hysteria, the hysteria, the hysteria, the hysteria."
+  wrong-item: "The government knows the truth, the truth is that it's tonight."
+  full-inventory: "A glass of wine!"
+  in-use: "And he's a man in the middle of nowhere."
+  ignition-chamber-no-flint: "and the fire of the Chamber fire and all the gold."
+  inventory-empty: 'The six-by-six guy is finished. He's in the middle of his arm, and he's in his hand for a while.'
+  ANCIENT_ALTAR:
+    not-enough-pedestals: & (%pedestals %8)
+    unknown-catalyst: 'The unknown material is being used in the middle of the night'
+    unknown-recipe: "I don't know!
+  ANCIENT_PEDESTAL:
+    obstructed: 'The 4-Ancient Pedestal in the middle of the night!'
+  HOLOGRAM_PROJECTOR:
+    enter-text: '"and 7 specifies that the text in the box shall be in the middle of the night'
+    inventory-title: 'ホログラムエディタ'
+  ELEVATOR:
+    no-destinations: "and he's at the same level as he's at the same time."
+    pick-a-floor: 'The 3-line picks first--'
+    current-floor: 'And now we're at the next level:'
+    click-to-teleport: 'Step 7'
+    editor-title: "I'm just setting it up."
+  TELEPORTER:
+    teleporting: "In the third quarter..."
+    teleported: It's over!
+    cancelled: 'The 4-year break!'
+    invulnerability: 'And in 30 seconds, it's invincible to pay for tonight'!
+    gui:
+      title: 'あなたのウェイポイント'
+      tooltip: 'クリックでテレポート'
+      time: "Presumed time."
+  GPS_CONTROL_PANEL:
+    title: 'GPSコントロールパネル'
+    transmitters: "GPS Transceiver"
+    waypoints: "It's all over the place."
+  CARGO_NODES:
+    must-be-placed: 'The 4-year-old machine has been set up for the night.'
+    not-connected: It's all right. It's all right.
+  INDUSTRIAL_MINER:
+    no-fuel: 'And the Industrial Miner fuel cut!
+    piston-facing: 'And the Industrial Miner is set up for tonight!'
+    piston-space: It's all right. It's okay.
+    destroyed: 'And the Industrial Miner broke into the sky tonight.'
+    already-running: 'The Industrial Miner'!
+    full-chest: 'And the Industrial Miner has a cup of tea!'
+    no-permission: 'The 4Industrial Miner has given way to the dead!'
+    finished: 'EIndustrial Miner crop is over!
+anvil:
+  not-working: 'And 4Slimefun's golden bed used the gills!
+  mcmmo-salvaging: '&4Slimefunアイテムはサルベージできません！'
+brewing_stand:
+  not-working: "And 4Slimefun is making a dynasty!"
+cartography_table:
+  not-working: 'S4Slimefun's tweezers use the tweezers!
+smithing_table:
+  not-working: "and 4-year-old white smelting material using cylindricals."
+villagers:
+  no-trading: 'The village of 4Slimefun's enthusiasts use the twig!'
+backpack:
+  already-open: It's not like we're in the middle of something.
+  no-stack: It's like, "I'm using it tonight!"
+workbench:
+  not-enhanced: 'The 4Slimefun Production Station uses the pedestal!'
+cauldron:
+  no-discoloring: "4Slimefun"
+gps:
+  deathpoint: ' & 4 & 7%date %'
+  status-online: 'オンライン'
+  status-offline: 'オフライン'
+  waypoint:
+    new: It's the middle of the night and the middle of the night.
+    added: "It's in the new city of Niigata."
+    max: ♪ It's the number of times it reaches the limit ♪
+    duplicate: 'The 4th was named after the existence of the f%waypoint%'.
+  insufficient-complexity:
+    - 'Four G.P.S.' is not enough.: &c%complexity%'
+    - '&4a) GPSネットワークをセットアップしていない'
+It's not like the GPS is in mid-day.
+  geo:
+    scan-required: It's time for you to get out of here!
+inventory:
+  no-access: "Four million dollars."
+android:
+  started: "The 7-year-old action begins."
+  stopped: 'The 7-year-olds have stopped.'
+  scripts:
+    already-uploaded: "Four hearts."
+    editor: 'スクリプトエディタ'
+    too-long: 'Cause I don't know what you're doing.
+    instructions:
+      START: 'The 2nd Start'
+      REPEAT: "The 9th is back."
+      WAIT: "and 0.5 seconds to stand by."
+      GO_FORWARD: ♪ Move before the 7th ♪
+      GO_UP: 'Step 7 moving.'
+      GO_DOWN: ♪ Down seven ♪ ♪ Move ♪
+      TURN_LEFT: 'Seven left to spin.'
+      TURN_RIGHT: 'Seven right swings.'
+      DIG_UP: "And the top of the ground is dug."
+      DIG_FORWARD: "B. Excavation."
+      DIG_DOWN: "Draw down and dig."
+      MOVE_AND_DIG_UP: "And the top of the river moves and digs."
+      MOVE_AND_DIG_FORWARD: 'The pre-diplomatic movement of digs.'
+      MOVE_AND_DIG_DOWN: "And the submersible moves and digs."
+      ATTACK_MOBS_ANIMALS: 'Four against the crevice.'
+      ATTACK_MOBS: 'Four against the C.'
+      ATTACK_ANIMALS: "4 against the animal."
+      ATTACK_ANIMALS_ADULT: ♪ 4 against the c. c. ♪
+      CHOP_TREE: "and the saplings. "
+      CATCH_FISH: ♪ And I'll be right back ♪
+      FARM_FORWARD: ♪ And I'll be right back ♪
+      FARM_DOWN: 'B.S.S.S.S. 7'
+      FARM_EXOTIC_FORWARD: "And the Exotic Garden"
+      FARM_EXOTIC_DOWN: 'BExotic Garden'
+      INTERFACE_ITEMS: "The 9-year-old Interface"
+      INTERFACE_FUEL: "and the fuel of the Interface to take out the platinum."
+    enter-name:
+      - ''
+- "Into the middle of the night."
+      - ''
+    uploaded:
+- "The twirling..."
+- 'It's over!
+    rating:
+      own: 'The four of them have their own comments!
+      already: "Four times the heart!"
+languages:
+  default: 'サーバデフォルト'
+  en: "English"
+  de: "Psych."
+  fr: "The white word."
+  it: "At the end of the day."
+  es: "Psych."
+  pl: "Psych."
+  sv: "As if it's true, it's true."
+  nl: "Psych."
+  cs: It's "Daniel."
+  hu: "Psych."
+  lv: "Psych."
+  ru: "Psych."
+  sk: "Psych."
+  zh-CN: Chinese (China)
+  zh-TW: Chinese (Taiwan)
+  vi: "Psych."
+  id: "By the way, it's the way it is."
+  el: "Psych."
+  he: "Psych."
+  pt: "The guy's talking. "
+  pt-BR: "The guy's talking."
+  ar: "Psych."
+  af: "I don't know what to say."
+  da: "Psych."
+  fi: "The white word."
+  uk: "It whispers."
+  ms: "Psych."
+  'no': "Use this guy's Neighbor."
+  ja: "Japanese"
+  fa: "The guy's talking."
+  th: "It's sarcastic."
+  tl: "It's sarcastic."
+  ro: "The guy whispers."
+  bg: "Scoffs."
+  ko: "Kank"
+  tr: "The guy's talking."
+  hr: "Psych."
+  mk: "Psych."
+  sr: "This guy whispers."
+  be: "The guy's talking."
+  si-LK: "Psych."
+  lt: "Psych."
