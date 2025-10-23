@@ -48,8 +48,8 @@ jobs:
         if: github.ref_name == 'codespace-special-palm-tree-wwj44qvqqg7h5j5'
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "exp"
-          prerelease: true
-          title: "Java Project Automatic Build"
+          automatic_release_tag: "Builds"
+          prerelease: false
+          title: "Untested Build"
           files: |
             target/*.jar
