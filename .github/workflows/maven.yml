@@ -19,8 +19,10 @@ jobs:
       packages: read
 
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v4
 
+      # Setup Java 21 with Maven caching
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
@@ -29,18 +31,22 @@ jobs:
           architecture: x64
           cache: maven
 
+      # Check code formatting with Spotless
       - name: Codestyle Check
         run: mvn -B spotless:check --errors
 
+      # Build the project with Maven
       - name: Build Project
         run: mvn -B package --errors
 
+      # Upload the built JAR as an artifact
       - uses: actions/upload-artifact@v4
         name: Upload Build Artifact
         with:
           name: Java Project Build
           path: target/*.jar
 
+      # Create an automatic GitHub release (prerelease) if on the branch
       - name: Automatic Releases
         uses: marvinpinto/action-automatic-releases@v1.2.1
         if: github.ref_name == 'codespace-special-palm-tree-wwj44qvqqg7h5j5'
